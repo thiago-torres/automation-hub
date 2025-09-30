@@ -1,0 +1,19 @@
+{% extends 'base/layout.html' %}
+
+{% block title %}Blank{% endblock %}
+
+{% block content %}
+
+  <!-- Conteúdo principal -->
+  <main class="container my-4">
+    <h1 class="mb-4">Bem-vindo</h1>
+    <p>Aqui ficará o conteúdo principal futuramente.</p>
+    <p>Role para baixo para testar o botão de voltar ao topo.</p>
+
+    <!-- Conteúdo de teste para rolagem -->
+    {% for i in range(50) %}
+      <p>Linha de teste {{ i }}</p>
+    {% endfor %}
+  </main>
+
+{% endblock %}
